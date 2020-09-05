@@ -6,7 +6,7 @@ def guessinggame():
     guess = 0
     tries = 0
     while guess != number:            #keep asking until user founds the number
-        while True:                   # if guess is not number ask again
+        while True:                   # if guess is not number, ask again
               try:
                  guess = int(input("Make Your Guess!: "))       
               except ValueError:

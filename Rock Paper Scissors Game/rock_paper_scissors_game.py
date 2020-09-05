@@ -15,7 +15,7 @@ def Game(player_score, computer_score):
     moves = ['r', 'p', 's']               #available moves
     player_wins = ['pr', 'sp', 'rs']      #combination of when player wins
 
-    while True:                           #while user wants to play ask again
+    while True:                           #while user wants to play, ask again
         player_move = input("Your Move: ")#getting user's move
         if player_move not in moves:
             print("Invalid Move.")
